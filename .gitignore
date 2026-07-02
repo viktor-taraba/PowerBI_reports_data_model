@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+/.vs
+/files.zip
+/README_draft.md
+/requirements.txt
