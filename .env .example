@@ -1,0 +1,18 @@
+# Copy this file to .env and fill in your values
+
+DB_DRIVER=ODBC Driver 18 for SQL Server
+DB_SERVER=myserver
+DB_DATABASE=PbixMetadata
+
+# "windows" (Trusted_Connection) or "sql" (UID/PWD)
+DB_AUTH_MODE=windows
+DB_UID=
+DB_PWD=
+
+DB_ENCRYPT=yes
+DB_TRUST_SERVER_CERTIFICATE=yes
+DB_CONNECTION_TIMEOUT=40
+
+# Optional: default folder to scan (can still be overridden with --folder)
+PBIX_FOLDER=D:\Users\MyUser\PowerBI_reports_data_model\Reports_test
+PBIX_ON_DISK=false
